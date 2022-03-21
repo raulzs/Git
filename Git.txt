@@ -1,0 +1,12 @@
+Para ir guardando cosas y probando git...
+1.Entro en la carpeta que quiero que se convierta en un repositorio de git.
+2.Crea un repositorio. la carpeta se convierta en un repositorio git init.
+3.Para ver el estado de mi repositorio.
+-git status.
+Me dice en que rama estoy y  si hay archivos modificados.
+Si esta en rojo: modificado en "Unstaged Changes" sin estar modificado para ser subido mediante un commit.
+Si esta en verde: modificado en "Staged changes" pero preparado como commit.
+3.1 en rojo al editar un archivo y lo guardamos.
+3.2 en verde cuando:
+-git add "nombreArchivo"
+
