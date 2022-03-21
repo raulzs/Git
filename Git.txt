@@ -9,9 +9,16 @@ Si esta en verde: modificado en "Staged changes" pero preparado como commit.
 3.1 en rojo al editar un archivo y lo guardamos.
 3.2 en verde cuando:
 -git add "nombreArchivo"
-4. para ver los commit realizamos:
+4. Para ver los commit realizamos:
 -git log.
 -git log -p == Para ver al detalle las modificaciones.
 -git log -3 == Para ver los 3 últimos.
-
+5. Para hacer commit +(add al mismo tiempo):
+-git commit -m "solo un commit"
+-git commit -a -m
+6. Para hacer el push:
+6.1. Si no tenemos enlazado el repositorio:
+-git push "url"
+6.2. si ya tenemos enlazado el repositorio con el github:
+-git push
 
