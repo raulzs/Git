@@ -29,5 +29,8 @@ Si esta en verde: modificado en "Staged changes" pero preparado como commit.
 8.2 Para crear una rama:
 -git branch "nombre"
 8.3 Para movernos entre ramas hacemos:
--git checkout "nombreRama"
+-git checkout "nombreRama" 
+
+// Cambio de rama
+// Ahora estamos en rama
 
